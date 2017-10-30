@@ -74,7 +74,7 @@
 					<ignoreTfPrefix>1</ignoreTfPrefix>
 				</plugin -->
 				<plugin name="${name}_controller" filename="libgazebo_ros_laser.so">
-					<topicName>${name}/scan</topicName>
+					<topicName>/${name}/scan</topicName>
 					<frameName>/${name}_link</frameName>
 				</plugin>				
 			</sensor>
